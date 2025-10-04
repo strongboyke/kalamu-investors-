@@ -1,3 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kalamu Investors — Products</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    body {margin:0; font-family:'Inter', sans-serif; background:#0f1724; color:#f1f5f9;}
+    header {padding:20px; background:#0b1220; display:flex; justify-content:space-between; align-items:center;}
+    header h1 {margin:0; font-size:20px;}
+    nav a {color:#94a3b8; margin-left:15px; text-decoration:none; font-weight:600;}
+    nav a:hover {color:#10b981;}
+
+    .wrap {max-width:1100px; margin:20px auto; padding:20px;}
+    h2 {margin-top:0; font-size:24px;}
+
+    .grid {display:grid; grid-template-columns:repeat(auto-fill,minmax(250px,1fr)); gap:18px; margin-top:20px;}
+    .product {background:#0b1220; padding:15px; border-radius:12px; border:1px solid rgba(255,255,255,0.08);}
+    .product img {width:100%; height:180px; object-fit:cover; border-radius:10px;}
+    .product h3 {margin:12px 0 6px; font-size:18px;}
+    .product p {margin:0; color:#94a3b8; font-size:14px;}
+    .price {margin-top:8px; font-weight:700; color:#10b981; font-size:16px;}
+
+    footer {margin-top:30px; padding:20px; background:#0b1220; text-align:center; color:#94a3b8; font-size:13px;}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Kalamu Investors</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="products.html">Products</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="wrap">
+    <h2>Our Products & Prices</h2>
+    <p>Browse our collection of trending products available for delivery across Kenya.</p>
+
+    <div class="grid">
+      <div class="product">
+        <img src="https://via.placeholder.com/400x300?text=Smartwatch" alt="Smartwatch">
+        <h3>Smartwatch</h3>
+        <p>Track your health and fitness with modern smart features.</p>
+        <div class="price">KES 3,500</div>
+      </div>
+
+      <div class="product">
+        <img src="https://via.placeholder.com/400x300?text=Wireless+Earbuds" alt="Wireless Earbuds">
+        <h3>Wireless Earbuds</h3>
+        <p>High-quality sound with noise cancellation.</p>
+        <div class="price">KES 2,200</div>
+      </div>
+
+      <div class="product">
+        <img src="https://via.placeholder.com/400x300?text=Blender" alt="Portable Blender">
+        <h3>Portable Blender</h3>
+        <p>Make smoothies on the go with USB rechargeable power.</p>
+        <div class="price">KES 2,800</div>
+      </div>
+
+      <div class="product">
+        <img src="https://via.placeholder.com/400x300?text=Beauty+Tools" alt="Beauty Tools">
+        <h3>Beauty & Skincare Tools</h3>
+        <p>Glow with affordable beauty gadgets.</p>
+        <div class="price">KES 1,800</div>
+      </div>
+
+      <div class="product">
+        <img src="https://via.placeholder.com/400x300?text=Phone+Case" alt="Phone Case">
+        <h3>Phone Cases</h3>
+        <p>Protective and stylish phone covers.</p>
+        <div class="price">KES 600</div>
+      </div>
+
+      <div class="product">
+        <img src="https://via.placeholder.com/400x300?text=Baby+Care" alt="Baby Care Essentials">
+        <h3>Baby Care Essentials</h3>
+        <p>Trusted products for infants and toddlers.</p>
+        <div class="price">KES 1,500</div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    Kalamu Investors · Nairobi, Kenya · hello@kalamuinvestors.com
+  </footer>
+</body>
+</html>
 <!DOCTYPE html>
 <html lang="en">
 <head>
